@@ -21,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Configure Firebase
         FirebaseApp.configure()
         
+        // Global UI SetUp
+        UINavigationBar.appearance().shadowImage = UIImage()
+        
         return true
     }
 

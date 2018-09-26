@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0571A2CD94CF2E43BA013145 /* Pods_Blueberry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2352C77CCA863C1A8DB9017C /* Pods_Blueberry.framework */; };
 		0DE80C49215B377F0019F439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE80C48215B377F0019F439 /* AppDelegate.swift */; };
-		0DE80C4B215B377F0019F439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE80C4A215B377F0019F439 /* ViewController.swift */; };
+		0DE80C4B215B377F0019F439 /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE80C4A215B377F0019F439 /* ListsViewController.swift */; };
 		0DE80C4E215B377F0019F439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE80C4C215B377F0019F439 /* Main.storyboard */; };
 		0DE80C51215B377F0019F439 /* Blueberry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DE80C4F215B377F0019F439 /* Blueberry.xcdatamodeld */; };
 		0DE80C53215B37810019F439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE80C52215B37810019F439 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		0DE80C45215B377F0019F439 /* Blueberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blueberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE80C48215B377F0019F439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DE80C4A215B377F0019F439 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DE80C4A215B377F0019F439 /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
 		0DE80C4D215B377F0019F439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DE80C50215B377F0019F439 /* Blueberry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blueberry.xcdatamodel; sourceTree = "<group>"; };
 		0DE80C52215B37810019F439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE80C48215B377F0019F439 /* AppDelegate.swift */,
-				0DE80C4A215B377F0019F439 /* ViewController.swift */,
+				0DE80C4A215B377F0019F439 /* ListsViewController.swift */,
 				0DE80C4C215B377F0019F439 /* Main.storyboard */,
 				0DE80C52215B37810019F439 /* Assets.xcassets */,
 				0DE80C54215B37810019F439 /* LaunchScreen.storyboard */,
@@ -170,12 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
@@ -228,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DE80C4B215B377F0019F439 /* ViewController.swift in Sources */,
+				0DE80C4B215B377F0019F439 /* ListsViewController.swift in Sources */,
 				0DE80C49215B377F0019F439 /* AppDelegate.swift in Sources */,
 				0DE80C51215B377F0019F439 /* Blueberry.xcdatamodeld in Sources */,
 			);
